@@ -17,7 +17,7 @@ gets the distance to the other clusters in the row and classifies them as valid 
 distance given by user as input. All valid ones join with the central cluster and the process is repeated
 until there are enough seats to cover those required by the user.
 
-### TODO
+**TODO**
 
 - In the case that no valid cluster is found, the distances to the center should be obtained
   of all clusters and choose all those that are close to 0. In this case there are no longer seats together,
@@ -35,7 +35,7 @@ The part of buying tickets, navigates through the interface choosing the time an
 When choosing the seats, it crawls the map of the room and passes it to the algorithm that returns
 the right seats. The bot chooses the seats and continues browsing until the moment of purchase.
 
-### TODO
+**TODO**
 
 - Divide each navigation (page) so that when there is an error it only have to refresh the page and
   start from that part, don't restart the whole bot completely (current).
